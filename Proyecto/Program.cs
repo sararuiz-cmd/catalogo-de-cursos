@@ -65,4 +65,5 @@ namespace CatalogoCursos
                 Console.WriteLine();
             }
         }
-
+    }
+}
