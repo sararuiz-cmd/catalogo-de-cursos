@@ -65,5 +65,22 @@ namespace CatalogoCursos
                 Console.WriteLine();
             }
         }
+        static void MostrarCursos(List<Curso> cursos)
+        {
+            if (cursos.Count == 0)
+            {
+                Console.WriteLine("Aún no hay cursos registrados.\n");
+                return;
+            }
+
+            Console.WriteLine("Listado de cursos:\n");
+            foreach (var curso in cursos)
+            {
+                Console.WriteLine($"[{curso.Id}] {curso.Nombre} - {curso.Area}");
+                Console.WriteLine($" Descripción: {curso.Descripcion}\n");
+            }
+
+        }
     }
 }
+
