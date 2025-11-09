@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YaZgobNi1gY=",
+  "dgSpecHash": "y3wMiMlnGpY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanp\\OneDrive\\Escritorio\\SEMESTRE II\\Plataformas\\S11\\Proyecto\\catalogo-de-cursos\\Proyecto\\Proyecto.csproj",
+  "projectFilePath": "C:\\Users\\saave\\OneDrive\\Escritorio\\catalogo de cursos\\Proyecto\\Proyecto.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\juanp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+    "C:\\Users\\saave\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
   "logs": []
 }
