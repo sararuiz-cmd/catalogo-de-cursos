@@ -1,5 +1,9 @@
+﻿using System;
+using System.Collections.Generic;
 namespace CatalogoCursos
 {
+    
+
     class Program
     {
         static void Main(string[] args)
@@ -54,6 +58,8 @@ namespace CatalogoCursos
                 Console.WriteLine();
             }
         }
+    }
+}
 
 
 
