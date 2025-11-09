@@ -19,6 +19,7 @@ namespace CatalogoCursos
         }
     }
 }
+
 namespace CatalogoCursos
 {
     class Program
