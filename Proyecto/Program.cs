@@ -35,6 +35,7 @@ namespace CatalogoCursos
             Console.WriteLine("===================================");
             Console.WriteLine("     Catálogo de Cursos - V1.0     ");
             Console.WriteLine("===================================\n");
+            Console.WriteLine($"Total de cursos disponibles: {cursos.Count}\n");
 
             bool salir = false;
             while (!salir)
