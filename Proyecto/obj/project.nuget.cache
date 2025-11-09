@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y3wMiMlnGpY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saave\\OneDrive\\Escritorio\\catalogo de cursos\\Proyecto\\Proyecto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saave\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

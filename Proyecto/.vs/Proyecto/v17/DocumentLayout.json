@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Milton\\OneDrive\\Documentos\\catalogo_cursos\\Proyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\saave\\OneDrive\\Escritorio\\catalogo de cursos\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5535AF90-9B7F-4C9E-B1EF-EC4BE30AFBE5}|Proyecto.csproj|c:\\users\\milton\\onedrive\\documentos\\catalogo_cursos\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5535AF90-9B7F-4C9E-B1EF-EC4BE30AFBE5}|Proyecto.csproj|c:\\users\\saave\\onedrive\\escritorio\\catalogo de cursos\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5535AF90-9B7F-4C9E-B1EF-EC4BE30AFBE5}|Proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +14,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Milton\\OneDrive\\Documentos\\catalogo_cursos\\Proyecto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Escritorio\\catalogo de cursos\\Proyecto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Milton\\OneDrive\\Documentos\\catalogo_cursos\\Proyecto\\Program.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Escritorio\\catalogo de cursos\\Proyecto\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+<<<<<<< HEAD
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwBMAAAAFAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+>>>>>>> 96d5865d4e52858b1a79b3f47cabe15dbb489e1e
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T21:15:16.954Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

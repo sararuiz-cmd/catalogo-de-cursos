@@ -1,22 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
 namespace CatalogoCursos
 {
-    
+    public class Curso
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Area { get; set; }
+        public string Descripcion { get; set; }
+
+        public Curso(int id, string nombre, string area, string descripcion)
+        {
+            Id = id;
+            Nombre = nombre;
+            Area = area;
+            Descripcion = descripcion;
+        }
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
-            // Lista de cursos
-            //modificado
-            List<Curso> cursos = new List<Curso>
+            // Datos iniciales de ejemplo
+            var cursos = new List<Curso>
             {
-                new Curso(1, "Algoritmos I", "Informática", "Fundamentos de algoritmos y lógica."),
-                new Curso(2, "Introducción a la Programación", "Informática", "Primeros pasos en programación."),
-                new Curso(3, "Matemática Discreta", "Matemáticas", "Conjuntos, lógica y grafos."),
-                new Curso(4, "Bases de Datos", "Informática", "Modelo relacional y SQL."),
-                new Curso(5, "Estructuras de Datos", "Informática", "Listas, pilas y árboles.")
+                new Curso(1, "Introducción a C#", "Programación", "Curso básico de C#"),
+                new Curso(2, "Bases de Datos", "Sistemas", "Conceptos de bases de datos relacionales"),
+                new Curso(3, "Algoritmos y Estructuras", "Programación", "Algoritmos fundamentales")
             };
 
             Console.WriteLine("===================================");
@@ -47,19 +60,62 @@ namespace CatalogoCursos
 
                     case "3":
                         salir = true;
-                        Console.WriteLine(" Saliendo del programa...");
+                        Console.WriteLine("Saliendo del programa...");
                         break;
 
                     default:
-                        Console.WriteLine(" Opción no válida.\n");
+                        Console.WriteLine("Opción no válida.\n");
                         break;
                 }
 
                 Console.WriteLine();
             }
         }
+
+        static void MostrarCursos(List<Curso> cursos)
+        {
+            if (cursos == null || cursos.Count == 0)
+            {
+                Console.WriteLine("No hay cursos registrados.\n");
+                return;
+            }
+
+            Console.WriteLine($"Listado de cursos ({cursos.Count}):\n");
+            foreach (var c in cursos)
+            {
+                Console.WriteLine($"[{c.Id}] {c.Nombre} - {c.Area}");
+                Console.WriteLine($" Descripción: {c.Descripcion}\n");
+            }
+        }
+
+        static void BuscarCurso(List<Curso> cursos)
+        {
+            if (cursos == null || cursos.Count == 0)
+            {
+                Console.WriteLine("Aún no hay cursos registrados para buscar.\n");
+                return;
+            }
+
+            Console.Write("Ingrese texto para buscar: ");
+            string filtro = Console.ReadLine()?.ToLower() ?? "";
+
+            var resultados = cursos
+                .Where(c => c.Nombre != null && c.Nombre.ToLower().Contains(filtro))
+                .ToList();
+
+            if (resultados.Count > 0)
+            {
+                Console.WriteLine($"\nResultados encontrados ({resultados.Count}):\n");
+                foreach (var curso in resultados)
+                {
+                    Console.WriteLine($"[{curso.Id}] {curso.Nombre} - {curso.Area}");
+                    Console.WriteLine($" Descripción: {curso.Descripcion}\n");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No se encontraron cursos con ese nombre.\n");
+            }
+        }
     }
 }
-
-
-
