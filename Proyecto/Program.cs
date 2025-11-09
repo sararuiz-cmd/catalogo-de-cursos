@@ -5,6 +5,7 @@ namespace CatalogoCursos
         static void Main(string[] args)
         {
             // Lista de cursos
+            //modificado
             List<Curso> cursos = new List<Curso>
             {
                 new Curso(1, "Algoritmos I", "Informática", "Fundamentos de algoritmos y lógica."),
